@@ -16,6 +16,7 @@ namespace IntegradorEC1.Persistence.Repositories
         public async Task AddAsync(Comando comando)
         {
             await _context.Comando.AddAsync(comando);
+            _context.SaveChanges();
         }
 
         public async Task<Comando> FindByDesc(string descricao)
@@ -23,6 +24,7 @@ namespace IntegradorEC1.Persistence.Repositories
             Task<Comando> task = new Task<Comando>(() => {
                 return _context.Comando.Where(comando => comando.DescricaoComando == descricao).Single();
             });
+            task.Start();
             return await task;
             
         }
@@ -40,11 +42,13 @@ namespace IntegradorEC1.Persistence.Repositories
         public void Remove(Comando comando)
         {
             _context.Comando.Remove(comando);
+            _context.SaveChanges();
         }
 
         public void Update(Comando comando)
         {
             _context.Comando.Update(comando);
+            _context.SaveChanges();
         }
     }
 }
