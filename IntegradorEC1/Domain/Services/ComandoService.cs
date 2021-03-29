@@ -20,6 +20,11 @@ namespace IntegradorEC1.Domain.Services
             await _comandoRepository.AddAsync(comando);
         }
 
+        public async Task<Comando> FindByDesc(string descricao)
+        {
+            return await _comandoRepository.FindByDesc(descricao);
+        }
+
         public async Task<Comando> FindByIdAsync(int id)
         {
             return await _comandoRepository.FindByIdAsync(id);
@@ -30,16 +35,20 @@ namespace IntegradorEC1.Domain.Services
             return await _comandoRepository.ListAsync();
         }
 
-        public void Remove(Comando comando)
+        public void Remove(int id)
         {
-            var comandoBase = FindByIdAsync(comando.CodigoComando);
-            if(!comandoBase.Result.Equals(null)){
+            var comandoBase = FindByIdAsync(id);
+            if(!(comandoBase.Result == null)){
                 _comandoRepository.Remove(comandoBase.Result);
             }
         }
         public void Update(Comando comando)
         {
             var comandoBase = FindByIdAsync(comando.CodigoComando);
+            if(!(comandoBase.Result == null)){
+                comandoBase.Result.DescricaoComando = comando.DescricaoComando;
+                _comandoRepository.Update(comandoBase.Result);
+            }
         }
     }
 }
