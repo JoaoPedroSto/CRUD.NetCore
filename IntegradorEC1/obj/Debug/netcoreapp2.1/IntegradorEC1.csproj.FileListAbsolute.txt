@@ -1,0 +1,17 @@
+C:\Users\joaop\OneDrive\Documentos\Estudos\ASP.Net Core\WorkSpace\IntegradorEC1\IntegradorEC1\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\joaop\OneDrive\Documentos\Estudos\ASP.Net Core\WorkSpace\IntegradorEC1\IntegradorEC1\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\joaop\OneDrive\Documentos\Estudos\ASP.Net Core\WorkSpace\IntegradorEC1\IntegradorEC1\bin\Debug\netcoreapp2.1\IntegradorEC1.deps.json
+C:\Users\joaop\OneDrive\Documentos\Estudos\ASP.Net Core\WorkSpace\IntegradorEC1\IntegradorEC1\bin\Debug\netcoreapp2.1\IntegradorEC1.runtimeconfig.json
+C:\Users\joaop\OneDrive\Documentos\Estudos\ASP.Net Core\WorkSpace\IntegradorEC1\IntegradorEC1\bin\Debug\netcoreapp2.1\IntegradorEC1.runtimeconfig.dev.json
+C:\Users\joaop\OneDrive\Documentos\Estudos\ASP.Net Core\WorkSpace\IntegradorEC1\IntegradorEC1\bin\Debug\netcoreapp2.1\IntegradorEC1.dll
+C:\Users\joaop\OneDrive\Documentos\Estudos\ASP.Net Core\WorkSpace\IntegradorEC1\IntegradorEC1\bin\Debug\netcoreapp2.1\IntegradorEC1.pdb
+C:\Users\joaop\OneDrive\Documentos\Estudos\ASP.Net Core\WorkSpace\IntegradorEC1\IntegradorEC1\obj\Debug\netcoreapp2.1\IntegradorEC1.csprojAssemblyReference.cache
+C:\Users\joaop\OneDrive\Documentos\Estudos\ASP.Net Core\WorkSpace\IntegradorEC1\IntegradorEC1\obj\Debug\netcoreapp2.1\IntegradorEC1.AssemblyInfoInputs.cache
+C:\Users\joaop\OneDrive\Documentos\Estudos\ASP.Net Core\WorkSpace\IntegradorEC1\IntegradorEC1\obj\Debug\netcoreapp2.1\IntegradorEC1.AssemblyInfo.cs
+C:\Users\joaop\OneDrive\Documentos\Estudos\ASP.Net Core\WorkSpace\IntegradorEC1\IntegradorEC1\obj\Debug\netcoreapp2.1\IntegradorEC1.csproj.CoreCompileInputs.cache
+C:\Users\joaop\OneDrive\Documentos\Estudos\ASP.Net Core\WorkSpace\IntegradorEC1\IntegradorEC1\obj\Debug\netcoreapp2.1\IntegradorEC1.RazorAssemblyInfo.cache
+C:\Users\joaop\OneDrive\Documentos\Estudos\ASP.Net Core\WorkSpace\IntegradorEC1\IntegradorEC1\obj\Debug\netcoreapp2.1\IntegradorEC1.RazorAssemblyInfo.cs
+C:\Users\joaop\OneDrive\Documentos\Estudos\ASP.Net Core\WorkSpace\IntegradorEC1\IntegradorEC1\obj\Debug\netcoreapp2.1\IntegradorEC1.RazorTargetAssemblyInfo.cache
+C:\Users\joaop\OneDrive\Documentos\Estudos\ASP.Net Core\WorkSpace\IntegradorEC1\IntegradorEC1\obj\Debug\netcoreapp2.1\IntegradorEC1.dll
+C:\Users\joaop\OneDrive\Documentos\Estudos\ASP.Net Core\WorkSpace\IntegradorEC1\IntegradorEC1\obj\Debug\netcoreapp2.1\IntegradorEC1.pdb
+C:\Users\joaop\OneDrive\Documentos\Estudos\ASP.Net Core\WorkSpace\IntegradorEC1\IntegradorEC1\obj\Debug\netcoreapp2.1\IntegradorEC1.genruntimeconfig.cache
