@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace IntegradorEC1.Domain.Models
 {
-    [Table("comando")]
+    [Table("COMANDO")]
     public class Comando
     {
         [Key]
@@ -14,5 +14,8 @@ namespace IntegradorEC1.Domain.Models
         [Required]
         [Column("DESC_COMAND")]
         public string DescricaoComando { get; set; }
+
+        [Required]
+        public Solicitacao Solicitacao { get; set; }
     }
 }
