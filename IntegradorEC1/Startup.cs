@@ -26,12 +26,14 @@ namespace IntegradorEC1
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-            services.AddDbContext<AppDbContext>(options => 
+            services.AddDbContext<AppDbContext>(options =>
                 options.UseMySql(Configuration.GetConnectionString("AppDbContext")));
             services.AddScoped<IComandoRepository, ComandoRepository>();
             services.AddScoped<IComandoService, ComandoService>();
+            services.AddScoped<ISolicitacaoRepository, SolicitacaoRepository>();
+            services.AddScoped<ISolicitacaoService, SolicitacaoService>();
 
-            
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
