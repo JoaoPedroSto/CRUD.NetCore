@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using IntegradorEC1.Domain.Models;
@@ -17,6 +18,7 @@ namespace IntegradorEC1.Domain.Services
 
         public async Task AddAsync(Solicitacao solicitacao)
         {
+            solicitacao.InicioFluxo = DateTime.Now;
             await _solicitacaoRepository.AddAsync(solicitacao);
         }
 
